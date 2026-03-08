@@ -29,24 +29,16 @@ However, in **Q3 2021**:
 
 ## What Went Wrong? (Machine Learning Perspective)
 
-The pandemic caused a sudden structural change in the housing market.
+The pandemic caused a structural shift in the housing market.
 
-The model was trained on **pre-pandemic data**, but deployed in a dramatically different market environment.
+Zillow’s model was trained on pre-pandemic data but deployed in a very different market environment — a classic case of **data drift** (distribution mismatch between training and real-world data).
 
-This is known as:
-
-- **Data shift**
-- **Data drift**
-- Distribution mismatch between training and test data  
-
-When the underlying data distribution changes, model predictions become unreliable.
-
-In Zillow’s case:
+As a result:
 - The model overpaid for homes  
-- Market cooling and labor/supply shortages increased costs  
-- Forecast errors compounded operational losses  
+- Market cooling and rising operational costs increased losses  
+- Forecast errors amplified business risk  
 
-This project explores similar modeling concepts using a structured housing dataset.
+This project explores similar modeling concepts using the Ames Housing dataset.
 
 ---
 
